@@ -1,0 +1,122 @@
+/* stylesheet*/
+
+body {
+  background: #0e0141;
+  font-family: Besley, serif;
+  color: #d8ceff;
+  font-size: 20px;
+  background-image: url(./images/main.jpg);
+}
+
+a {
+  text-decoration: none;
+  color: #d8ceff;
+}
+
+form {
+  display: flex-inline;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 50px;
+  gap: 10px;
+  text-align: center;
+  border-radius: 25px;
+  border: 2px dashed #c9bcfc3b;
+}
+
+footer {
+  background-color: #c9bcfc85;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding: 15px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: d8ceff;
+  font-size: 75px;
+}
+
+p, h2 {
+  color: d8ceff;
+}
+
+.contactform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px 0px 10px;
+  gap: 15px;
+}
+
+.logoicon {
+  margin-right: auto;
+  height: 65px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 100px 20px 75px 20px;
+  gap: 50px;
+  justify-content: center;
+}
+
+.mainimg {
+  width: 750px;
+}
+
+.maintext {
+  width: 500px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 50px;
+  background-color: #c9bcfc85;
+  text-align: center;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.projecticon {
+  width: 400px;
+  margin: 10px;
+}
+
+.quote {
+  min-width: 200px;
+    border-radius: 25px;
+    border: 2px dashed #c9bcfc3b;
+    padding: 25px;
+}
+/* This will ideally turn into a rotating gallery of testimonials, but we will start with 3 static. */
+
+.testimonial {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #d8ceff;
+  font-size: 25px;
+  text-align: center;
+  padding: 50px;
+  gap: 25px;
+}
+
+.topnav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  gap: 30px;
+  margin: 50px 25px 5px 25px;
+}
